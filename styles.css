@@ -313,9 +313,11 @@ body {
     padding-right: 10px;
 }
 
-.seal-ft {
+.seal-ft  img{
     width: 20px;
     margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Responsive styles for screens smaller than 600px */
 @media screen and (max-width: 600px) {
