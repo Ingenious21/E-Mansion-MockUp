@@ -314,9 +314,12 @@ body {
 }
 
 .ft-seal {
-    margin-bottom: 50px;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -35px;
+
 }
 
 /* Responsive styles for screens smaller than 600px */
