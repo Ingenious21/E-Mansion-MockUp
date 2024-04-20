@@ -319,6 +319,9 @@ body {
     align-items: center;
 }
 
+.seal-of-Liberia-1 {
+    width: 10px;
+}
 
 /* Responsive styles for screens smaller than 600px */
 @media screen and (max-width: 600px) {
