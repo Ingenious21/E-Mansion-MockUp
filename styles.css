@@ -313,14 +313,10 @@ body {
     padding-right: 10px;
 }
 
-.seal-ft {
+.ft-seal {
     margin-bottom: 50px;
     justify-content: center;
     align-items: center;
-}
-
-.seal-of-Liberia-1 {
-    width: 10px;
 }
 
 /* Responsive styles for screens smaller than 600px */
