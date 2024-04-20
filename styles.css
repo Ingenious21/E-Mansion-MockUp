@@ -313,12 +313,13 @@ body {
     padding-right: 10px;
 }
 
-.seal-ft  img{
-    width: 20px;
+.seal-ft {
     margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
+    align-items: center;
 }
+
+
 /* Responsive styles for screens smaller than 600px */
 @media screen and (max-width: 600px) {
     .header-text {
