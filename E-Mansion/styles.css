@@ -1,0 +1,368 @@
+body {
+    background-color: #fff;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+.main {
+    margin: auto;
+    max-width: 1150px;
+}
+.header {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+     font-family:'Times New Roman', Times, serif ;
+}
+.seal-of-Liberia {
+    width: 40px;
+    margin-top: 8px;
+    margin-bottom: -8px;
+}
+
+.header-text {
+    font-size: medium;
+    padding-bottom: 15px;
+    font-weight:normal;
+    color: #707070;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #c00;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 20px;
+    background-color: inherit;
+    font-family: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #051e3b;
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: #31363F;
+    min-width: 140px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #31363F;
+    padding: 12px 16px;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #051e3b;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.main-content-one {
+    margin: 0 auto;
+    max-width: 1150px;
+    background-color: #f3f3f3;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10px;
+}
+
+.main-content-one img {
+    max-width: 810px;
+}
+
+.main-content-one h3 {
+    line-height: 30px;
+    font-size: 24px;
+    font-family: sans-serif;
+    color:#051e3b;
+    margin-bottom: 5px;
+}
+
+.horizontal-lineOne {
+    width: 30%;
+    height: .9px;
+    float: left;
+    background-color: #c00;
+}
+
+.c-p-one {
+    margin-top: 30px;
+    color: #454545;
+}
+
+/*  Styling of the second segment of the web page */
+
+/* First Column of first Segment*/
+.main-content-two {
+    margin: 50px auto;
+    width: 1150px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+
+.mc-1 {
+    width: 210px;
+    height: 600px;
+}
+
+.vp-text {
+    width: 200px;
+    margin-top: -22px;
+    text-align: center;
+    background-color: #f3f3f3;
+    font-size: 14px;
+}
+
+.mc-1-text {
+    margin-top: -15px;
+}
+
+.main-content-two img {
+    width: 200px;
+    height: 300px;
+}
+
+/*Second column of second segment*/
+.mc-2 {
+    padding-left: 20px;
+    border-left: 1px solid #f3f3f3;
+    width: 500px;
+    padding-right: 10px;
+}
+
+.mc2-hl {
+    color: #454545;
+    font-weight: lighter;
+}
+
+.horizontal-line-mc2 {
+    width: 15%;
+    height: .9px;
+    float: left;
+    background-color: #c00;
+    margin-top: -10px;
+}
+
+.mc-2 h6 {
+    color: #484545;
+    margin-bottom: -20px;
+}
+
+.mc-2 h5, a {
+    color: #333333;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.mc-2 a:hover {
+    color: #c00;
+    text-decoration: underline;
+}
+/*End of column 2 of the second segment*/
+
+/*Column 3 of the second segment*/
+.mc-3 {
+    width: 400px;   
+    padding-left: 30px;
+    border-left: 1px solid #f3f3f3;
+}
+
+.horizontal-line-mc2-3 {
+    width: 15%;
+    height: .9px;
+    float: left;
+    background-color: #c00;
+    margin-top: -10px;   
+}
+
+.mc-3 h5 {
+    color:#707070;
+}
+.mc-3 h6 {
+    color:#707070;
+    font-size: small;
+    font-weight: lighter;
+    border-bottom: 2px solid #f3f3f3;
+    padding-bottom: 10px;
+}
+/*End of column 3 of the second segment*/
+/*End of the second segment*/
+
+/*Start of the third segment*/
+.main-content-three{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 5px;
+    width: 1150px;
+    margin: auto;
+}
+
+.ing-pic {
+    width: 525px;
+    height: 392px;
+    border-radius: 10px;
+}
+
+.mc3-2 i {
+    border: 1px solid white;
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    height: 150px;
+}
+
+.mc3-2 a {
+    padding-left: 15px;
+    color: #c00;
+    font-size: large;
+}
+
+.mc3-2 a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #051e3b;
+    color: #fff; 
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -30%;
+    height: 600px;;
+}
+
+
+.footer-2 li, .footer-3 li{
+    list-style: none;
+}
+
+.footer-1, .footer-2, .footer-3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+.footer-1 {
+    width: 400px;
+    padding-left: 80px;
+}
+
+.footer-1 p{
+    margin-top: -8px;
+    line-height: 30px;;
+}
+
+.icon-ft {
+    display: flex;
+    margin-left: -15px;
+}
+
+.icon-ft i {
+    padding: 20px;
+}
+
+.arrange {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    font-size: large;
+}
+
+.arrange i {
+    padding-right: 10px;
+}
+/* Responsive styles for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+    .header-text {
+        font-size: medium;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar a {
+        padding: 10px 20px;
+    }
+
+    .dropdown {
+        width: 100%;
+    }
+
+    .dropdown-content {
+        position: relative;
+    }
+
+    .main-content-one {
+        grid-template-columns: 1fr;
+    }
+
+    .main-content-one img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .main-content-two {
+        grid-template-columns: 1fr;
+    }
+
+    .mc-1 {
+        width: 100%;
+    }
+
+    .mc-2 {
+        width: 100%;
+        border-left: none;
+    }
+
+    .mc-3 {
+        width: 100%;
+        border-left: none;
+    }
+
+    .mc-2 h6, .mc-3 h6 {
+        font-size: small;
+    }
+}
